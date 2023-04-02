@@ -1,0 +1,36 @@
+{
+  "name": "jwt-api-mock",
+  "version": "1.0.0",
+  "description": "Mock of the authorization API. The main purpose is to allow you to test the @lavieennoir/auth package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"{src,netlify}/**/*.ts\"",
+    "dev": "netlify functions:serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavieennoir/jwt-api-mock.git"
+  },
+  "author": "lavieennoir <dmitriykhiznyak@gmail.com> (https://github.com/lavieennoir)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavieennoir/jwt-api-mock/issues"
+  },
+  "homepage": "https://github.com/lavieennoir/jwt-api-mock#readme",
+  "dependencies": {
+    "@netlify/functions": "^1.4.0",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "netlify-cli": "^13.2.2",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.3"
+  }
+}
