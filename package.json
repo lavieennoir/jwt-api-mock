@@ -4,7 +4,6 @@
   "description": "Mock of the authorization API. The main purpose is to allow you to test the @lavieennoir/auth package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"{src,netlify}/**/*.ts\"",
     "dev": "netlify functions:serve"
   },

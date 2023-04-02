@@ -26,6 +26,9 @@ yarn dev
 
 Please use `Content-Type: application/json` to perform requests.
 
+For the endpoints below the local host is used. If you would like to use deployed version of the app
+use the host specified in a Github repository description.
+
 ## Sign in
 ```
 POST http://localhost:9999/.netlify/functions/sign-in
