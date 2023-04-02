@@ -31,7 +31,7 @@ const getJwtPayloadIfVerified = (token: string) => {
 };
 
 const tryGetJwtPayloadFromEvent = (event: HandlerEvent) => {
-  const authHeader = event.headers["x-authorization"];
+  const authHeader = event.headers.authorization;
   // Header should have format of Bearer token (Bearer {access_token})
   const accessToken = authHeader?.split(" ")[1];
 

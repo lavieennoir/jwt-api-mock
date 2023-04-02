@@ -70,4 +70,4 @@ For example:
 GET http://localhost:9999/.netlify/functions/refresh
 ```
 
-This endpoint is authenticated. You should pass the `X-Authorization` header in a format `Bearer {access_token}` to access it.
+This endpoint is authenticated. You should pass the `Authorization` header in a format `Bearer {access_token}` to access it.
