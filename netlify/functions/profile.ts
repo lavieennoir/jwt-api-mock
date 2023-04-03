@@ -7,7 +7,7 @@ const handler: Handler = functionWrapper(
   async (event: HandlerEvent) => {
     const payload = await jwtService.tryGetJwtPayloadFromEvent(event);
     const user = userService.getById(payload.id);
-    return { user };
+    return user ?? {};
   },
   { allowedMethods: ["GET"] }
 );
